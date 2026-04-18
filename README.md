@@ -2,6 +2,8 @@
 
 HY-World-2.0-Demo is a powerful, experimental 3D reconstruction and Gaussian Splatting suite powered by the Tencent HY-World-2.0 model (WorldMirror). Designed to bridge the gap between 2D media and immersive 3D environments, this application accepts uploaded images or videos and generates high-fidelity point clouds, accurate camera poses, depth maps, surface normals, and dense Gaussian splats. The suite features a deeply customized, interactive web interface built with custom HTML, CSS, and JavaScript. Users can visualize the reconstructed 3D scenes and splats directly within the browser using the integrated Rerun viewer, or they can download the generated `.glb` and `.ply` files for external rendering in tools like SuperSplat or PlayCanvas. Fully GPU-accelerated and optimized with Flash Attention, HY-World-2.0-Demo provides an advanced, streamlined environment for testing next-generation generative world models.
 
+<img width="2420" height="1080" alt="0417PNG" src="https://github.com/user-attachments/assets/7766222d-e82f-40b6-b81a-d777c05ef643" />
+
 ### **Key Features**
 
 * **Universal 3D Reconstruction:** Upload a series of images or a continuous video to automatically generate a complete 3D scene, including point clouds, depth maps, normal maps, and camera poses.
