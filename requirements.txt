@@ -1,0 +1,53 @@
+# --- Core DL Stack ---
+flash-attn @ https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3/flash_attn-2.8.3+cu12torch2.4cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
+torch==2.4.0
+torchvision==0.19.0
+
+# --- API / Backend ---
+fastapi
+pydantic
+requests
+
+# --- Media / Processing ---
+moviepy==1.0.3
+opencv-python
+pillow_heif
+
+# --- Scientific / Math ---
+numpy<2.0.0
+scipy
+matplotlib
+
+# --- 3D / Vision ---
+trimesh
+open3d==0.18.0
+plyfile
+pycolmap==3.10.0
+
+# --- ML / Utils ---
+tqdm
+omegaconf
+einops
+torchmetrics
+jaxtyping
+typeguard
+colorspacious
+safetensors
+onnxruntime
+kernels
+uniception
+
+# --- Gaussian Splatting ---
+gsplat @ https://github.com/nerfstudio-project/gsplat/releases/download/v1.5.3/gsplat-1.5.3+pt24cu124-cp310-cp310-linux_x86_64.whl
+# Windows alternative:
+# gsplat @ https://github.com/nerfstudio-project/gsplat/releases/download/v1.5.3/gsplat-1.5.3+pt24cu124-cp310-cp310-win_amd64.whl
+
+# --- ReRun ---
+rerun-sdk
+gradio_rerun
+jax
+termcolor
+
+# --- Gradio ---
+gradio==5.49.1  # for gradio_app
+# gradio==6.12.0  # for gradio_server_app
