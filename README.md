@@ -46,9 +46,9 @@ Install the necessary diffusion, machine learning, 3D processing, and web server
 
 ```text
 # --- Core DL Stack ---
-flash-attn @ https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3/flash_attn-2.8.3+cu12torch2.4cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
-torch==2.4.0
-torchvision==0.19.0
+flash-attn @ https://huggingface.co/strangertoolshf/flash_attention_2_wheelhouse/resolve/main/wheelhouse-flash_attn-2.8.3/linux_x86_64/torch2.8/cu12/abiFALSE/cp310/flash_attn-2.8.3+cu12torch2.8cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
+torch==2.8.0
+torchvision
 
 # --- API / Backend ---
 fastapi
@@ -86,6 +86,8 @@ uniception
 
 # --- Gaussian Splatting ---
 gsplat @ https://github.com/nerfstudio-project/gsplat/releases/download/v1.5.3/gsplat-1.5.3+pt24cu124-cp310-cp310-linux_x86_64.whl
+# Windows alternative:
+# gsplat @ https://github.com/nerfstudio-project/gsplat/releases/download/v1.5.3/gsplat-1.5.3+pt24cu124-cp310-cp310-win_amd64.whl
 
 # --- ReRun ---
 rerun-sdk
@@ -94,8 +96,8 @@ jax
 termcolor
 
 # --- Gradio ---
-gradio==5.49.1  # For app.py
-# gradio==6.12.0  # Optional: For gradio_server_app.py
+gradio==5.49.1  # for gradio_app
+# gradio==6.12.0  # for gradio_server_app
 ```
 
 ### **Usage**
